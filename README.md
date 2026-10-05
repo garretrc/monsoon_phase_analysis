@@ -17,6 +17,16 @@ The scripts require R and the packages `tidyverse`, `Matrix`, `ncdf4`, `glmgen`,
 `FNN`, `fdasrvf`, `viridis`, `ggrepel`, `patchwork`, `sf`, `maps`, `rworldmap`
 and `rworldxtra`.
 
+The input climatologies are included in data/ using Git LFS. Install Git LFS before cloning this repository:
+
+```sh
+git lfs install
+git clone https://github.com/garretrc/monsoon_phase_analysis.git
+cd monsoon_phase_analysis
+```
+
+If you already cloned the repository, run `git lfs install` followed by `git lfs pull` from the repository directory.
+
 From the `monsoon_phase_analysis/` directory, run:
 
 ```sh
